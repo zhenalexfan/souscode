@@ -2,7 +2,7 @@
   import { cn } from "../../../shared/cn";
   import { t } from "../../../shared/i18n/i18n";
   import BackButton from "../../common/BackButton.svelte";
-  import { toKebabCase } from "../../../shared/utils";
+  import { AppUrls } from "../../../shared/urls";
 
   let {
     id,
@@ -30,7 +30,7 @@
   <!-- Left Side: Back and Info -->
   <div class="flex items-center gap-4">
     <BackButton
-      href="/recipe/{toKebabCase(id)}"
+      href={AppUrls.recipe(id)}
       class="bg-on-background/5 text-on-background hover:bg-on-background hover:text-background"
     />
 

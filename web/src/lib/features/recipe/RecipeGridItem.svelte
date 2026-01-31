@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Recipe } from "../../shared/types";
-  import { toKebabCase } from "../../shared/utils";
+  import { AppUrls } from "../../shared/urls";
   import IngredientFlexRow from "./IngredientFlexRow.svelte";
 
   let {
@@ -28,7 +28,7 @@
 </script>
 
 <a
-  href="/recipe/{toKebabCase(recipe.id)}"
+  href={AppUrls.recipe(recipe.id)}
   class="block group [perspective:1000px] active:scale-95 transition-transform duration-200"
 >
   <div

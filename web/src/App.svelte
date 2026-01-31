@@ -4,26 +4,16 @@
   import RecipeDetail from "./lib/features/recipe/RecipePage.svelte";
   import RecipePlayer from "./lib/features/player/RecipePlayerPage.svelte";
   import About from "./lib/features/about/AboutPage.svelte";
-  import { toPascalCase } from "./lib/shared/utils";
+  import { resolveRoute } from "./lib/shared/urls";
 
   let currentRoute = $state("home");
   let params = $state<{ id?: string }>({});
 
   function handlePopState() {
-    const path = window.location.pathname;
-
-    if (path.startsWith("/recipe/")) {
-      currentRoute = "recipe";
-      const slug = path.split("/")[2];
-      params.id = toPascalCase(slug);
-    } else if (path.startsWith("/player/")) {
-      currentRoute = "player";
-      const slug = path.split("/")[2];
-      params.id = toPascalCase(slug);
-    } else if (path === "/about") {
-      currentRoute = "about";
-    } else {
-      currentRoute = "home";
+    const routeInfo = resolveRoute(window.location.pathname);
+    currentRoute = routeInfo.route;
+    if ("id" in routeInfo) {
+      params.id = routeInfo.id;
     }
   }
 

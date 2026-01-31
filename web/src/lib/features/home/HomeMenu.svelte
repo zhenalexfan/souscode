@@ -4,6 +4,7 @@
   import MenuItem from "../../shared/components/MenuItem.svelte";
   import { cn } from "../../shared/cn";
   import { t } from "../../shared/i18n/i18n";
+  import { AppUrls } from "../../shared/urls";
 
   interface Props {
     class?: string;
@@ -30,7 +31,7 @@
       <MenuItem
         icon={Info}
         onclick={() => {
-          history.pushState(null, "", "/about");
+          history.pushState(null, "", AppUrls.about());
           window.dispatchEvent(new Event("popstate"));
         }}
         class="px-4"
@@ -39,8 +40,7 @@
       </MenuItem>
       <MenuItem
         icon={ExternalLink}
-        onclick={() =>
-          window.open("https://github.com/zhenalexfan/souscode", "_blank")}
+        onclick={() => window.open(AppUrls.github(), "_blank")}
         class="px-4"
       >
         {$t("home.actionGithub")}

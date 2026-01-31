@@ -3,7 +3,7 @@
   import IngredientFlexRow from "./IngredientFlexRow.svelte";
   import { t } from "../../shared/i18n/i18n";
   import { cn } from "../../shared/cn";
-  import { toKebabCase } from "../../shared/utils";
+  import { AppUrls } from "../../shared/urls";
 
   let { id, name, ingredients } = $props();
 </script>
@@ -17,7 +17,7 @@
   <IngredientFlexRow {ingredients} recipeName={name} size="sm" class="mb-8" />
   <div class="flex gap-4">
     <a
-      href="/player/{toKebabCase(id)}"
+      href={AppUrls.player(id)}
       class={cn(
         "bg-background text-on-background",
         "font-bold text-xs lowercase tracking-widest",
