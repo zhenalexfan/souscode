@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "kotlin",
+      "request": "launch",
+      "name": "Run Application",
+      "mainClass": "souscode.MainKt",
+      "projectRoot": "${workspaceFolder}",
+      "modulePaths": [
+        "${workspaceFolder}/build/classes/kotlin/main"
+      ]
+    }
+  ]
+}

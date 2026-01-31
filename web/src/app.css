@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  /* Core colors */
+  --color-background: var(--background);
+  --color-on-background: var(--on-background);
+  
+  --color-surface: var(--surface);
+  --color-on-surface: var(--on-surface);
+  
+  --color-surface-variant: var(--surface-variant);
+  --color-on-surface-variant: var(--on-surface-variant);
+  
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+  
+  --color-highlighted: var(--highlighted);
+  --color-on-highlighted: var(--on-highlighted);
+  --color-highlighted-container: var(--highlighted-container);
+  --color-on-highlighted-container: var(--on-highlighted-container);
+  
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  
+  /* Code theme */
+  --color-code-surface: var(--code-surface);
+  --color-on-code-surface: var(--on-code-surface);
+
+  --font-display: var(--font-display);
+}
+
+@layer base {
+  :root {
+    /* REQUIRED: Global scaling for mobile devices.
+       By setting the root font-size to 75% (approx 12px), we redefine '1rem'.
+       Since Tailwind uses 'rem' for padding (p-*), margin (m-*), width (w-*),
+       height (h-*), and font-size (text-*), ALL of these utilities will 
+       proportionally scale down, creating a more compact mobile UI.
+    */
+    font-size: 75%;
+
+    /* Core colors as RGB for opacity support if needed, but in v4 simple hex or variables work fine too. 
+       However, to maintain consistency with previous setup, I'll keep the values. 
+       Wait, v4 handles opacity better. I'll just use hex/colors directly or keep the variables. */
+    --background: #ea3c12;
+    --on-background: #ffe0b4;
+    
+    --surface: #FFFFFF;
+    --on-surface: #ea3c12;
+    
+    --surface-variant: #ffea8d;
+    --on-surface-variant: #ea3c12;
+    
+    --primary: #f25a47;
+    --on-primary: #FFFFFF;
+    --primary-container: #ffca9f;
+    --on-primary-container: #ea3c12;
+
+    --highlighted: #ffff11;
+    --on-highlighted: #ea3c12; 
+    --highlighted-container: #fff8b5;
+    --on-highlighted-container: #ea3c12;
+    
+    --accent: #beff5d;
+    --on-accent: #ea3c12;
+    
+    /* Code theme */
+    --code-surface: #1f0000;
+    --on-code-surface: #FFFFFF;
+
+    --font-display: "neue-haas-unica", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  @media (min-width: 768px) {
+    :root {
+      font-size: 100%;
+    }
+  }
+
+  body {
+    @apply bg-background text-on-background font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply headline;
+  }
+}
+
+@utility headline {
+  font-family: var(--font-display);  
+  font-weight: 700; 
+  letter-spacing: -0.04em; 
+  display: block;
+}
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/container-queries";

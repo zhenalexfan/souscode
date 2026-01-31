@@ -1,0 +1,6 @@
+{
+  "name": "souscode-web",
+  "buildCommand": "bash vercel-build.sh",
+  "outputDirectory": "web/dist",
+  "framework": "vite"
+}

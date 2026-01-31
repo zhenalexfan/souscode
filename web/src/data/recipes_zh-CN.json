@@ -1,0 +1,396 @@
+[
+    {
+        "id": "SteamedRice",
+        "name": "米饭",
+        "ingredients": [
+            "米",
+            "水"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m116\">煮锅</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m117\">300 g米</ingredient>、<ingredient id=\"m118\">450 mL水</ingredient>",
+                    "煮沸",
+                    "开低火",
+                    "等15分钟",
+                    "停止加热",
+                    "等5分钟"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "BraisedBeefNoodleSoup",
+        "name": "红烧牛肉面",
+        "ingredients": [
+            "牛腱子",
+            "橄榄油",
+            "姜",
+            "葱",
+            "八角",
+            "肉桂",
+            "酱油",
+            "豆瓣酱",
+            "糖",
+            "水",
+            "面条",
+            "小白菜"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m119\">煮锅</container>",
+                "steps": [
+                    "开高火",
+                    "往里放<ingredient id=\"m120\">500 g牛腱子</ingredient>、<ingredient id=\"m121\">15 mL橄榄油</ingredient>、<ingredient id=\"m122\">20 g姜</ingredient>、<ingredient id=\"m123\">20 g葱</ingredient>、<ingredient id=\"m124\">一些八角</ingredient>、<ingredient id=\"m125\">一些肉桂</ingredient>",
+                    "等5分钟",
+                    "往里放<ingredient id=\"m126\">50 mL酱油</ingredient>、<ingredient id=\"m127\">1 tbsp豆瓣酱</ingredient>、<ingredient id=\"m128\">1 tbsp糖</ingredient>、<ingredient id=\"m129\">2 L水</ingredient>",
+                    "煮沸",
+                    "等90分钟",
+                    "往里放<ingredient id=\"m130\">300 g面条</ingredient>",
+                    "往里放<ingredient id=\"m131\">200 g小白菜</ingredient>",
+                    "等5分钟"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "MapoTofu",
+        "name": "麻婆豆腐",
+        "ingredients": [
+            "橄榄油",
+            "豆瓣酱",
+            "姜",
+            "大蒜",
+            "花椒",
+            "猪肉",
+            "豆腐",
+            "酱油",
+            "糖",
+            "水",
+            "葱"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m132\">炒锅</container>",
+                "steps": [
+                    "开高火",
+                    "往里放<ingredient id=\"m133\">2 tbsp橄榄油</ingredient>、<ingredient id=\"m134\">2 tbsp豆瓣酱</ingredient>、<ingredient id=\"m135\">10 g姜</ingredient>、<ingredient id=\"m136\">10 g大蒜</ingredient>、<ingredient id=\"m137\">1 tsp花椒</ingredient>",
+                    "等2分钟",
+                    "往里放<ingredient id=\"m138\">150 g猪肉</ingredient>",
+                    "等3分钟",
+                    "往里放<ingredient id=\"m139\">400 g豆腐</ingredient>",
+                    "往里放<ingredient id=\"m140\">1 tbsp酱油</ingredient>、<ingredient id=\"m141\">1 tsp糖</ingredient>、<ingredient id=\"m142\">100 mL水</ingredient>",
+                    "开中火",
+                    "等5分钟",
+                    "往里放<ingredient id=\"m143\">20 g葱</ingredient>"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "TomatoSoup",
+        "name": "番茄汤",
+        "ingredients": [
+            "橄榄油",
+            "洋葱",
+            "大蒜",
+            "西红柿",
+            "水",
+            "奶油"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m144\">煮锅</container>",
+                "steps": [
+                    "开中火",
+                    "往里放<ingredient id=\"m145\">1 tbsp橄榄油</ingredient>、<ingredient id=\"m146\">1洋葱</ingredient>、<ingredient id=\"m147\">2 tsp大蒜</ingredient>",
+                    "等5分钟",
+                    "往里放<ingredient id=\"m148\">500 g西红柿</ingredient>、<ingredient id=\"m149\">500 mL水</ingredient>",
+                    "煮沸",
+                    "等20分钟",
+                    "往里放<ingredient id=\"m150\">100 mL奶油</ingredient>",
+                    "高速搅拌"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "OvenRoastedPotatoes",
+        "name": "烤土豆",
+        "ingredients": [
+            "土豆",
+            "橄榄油",
+            "盐",
+            "黑胡椒",
+            "迷迭香",
+            "大蒜"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m151\">碗</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m152\">500 g土豆</ingredient>、<ingredient id=\"m153\">2 tbsp橄榄油</ingredient>、<ingredient id=\"m154\">1 tsp盐</ingredient>、<ingredient id=\"m155\">0.50 tsp黑胡椒</ingredient>、<ingredient id=\"m156\">1 tbsp迷迭香</ingredient>、<ingredient id=\"m157\">1 tbsp大蒜</ingredient>",
+                    "低速搅拌"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m158\">烤盘</container>",
+                "steps": [
+                    "把<container tableware id=\"m151\">碗</container>里的东西移进来"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m159\">烤箱</container>",
+                "steps": [
+                    "往里放<container cookware id=\"m158\">烤盘</container>",
+                    "在400 °F下烘烤",
+                    "等25分钟"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "AglioEOlio",
+        "name": "蒜油意面",
+        "ingredients": [
+            "水",
+            "盐",
+            "意大利面",
+            "橄榄油",
+            "大蒜",
+            "辣椒片"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m160\">煮锅</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m161\">1 L水</ingredient>",
+                    "煮沸",
+                    "往里放<ingredient id=\"m162\">1 tbsp盐</ingredient>",
+                    "往里放<ingredient id=\"m163\">200 g意大利面</ingredient>",
+                    "等10分钟"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m164\">煎锅</container>",
+                "steps": [
+                    "开低火",
+                    "往里放<ingredient id=\"m165\">60 mL橄榄油</ingredient>、<ingredient id=\"m166\">4 tsp大蒜</ingredient>、<ingredient id=\"m167\">1 tsp辣椒片</ingredient>",
+                    "等3分钟",
+                    "把<container cookware id=\"m160\">煮锅</container>里的东西移进来",
+                    "中速搅拌"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Bruschetta",
+        "name": "意式烤面包",
+        "ingredients": [
+            "西红柿",
+            "罗勒",
+            "大蒜",
+            "橄榄油",
+            "盐",
+            "面包"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m168\">碗 A</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m169\">300 g西红柿</ingredient>、<ingredient id=\"m170\">10 g罗勒</ingredient>、<ingredient id=\"m171\">1 tsp大蒜</ingredient>、<ingredient id=\"m172\">2 tbsp橄榄油</ingredient>、<ingredient id=\"m173\">1 tsp盐</ingredient>"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m174\">烤盘</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m175\">一些面包</ingredient>"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m176\">烤箱</container>",
+                "steps": [
+                    "往里放<container cookware id=\"m174\">烤盘</container>",
+                    "在200 °C下烘烤",
+                    "等5分钟"
+                ]
+            },
+            {
+                "container": "<container tableware id=\"m177\">碗 B</container>",
+                "steps": [
+                    "把<container cookware id=\"m174\">烤盘</container>里的东西移进来",
+                    "把<container tableware id=\"m168\">碗 A</container>里的东西移进来"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "CapreseSalad",
+        "name": "卡普雷塞沙拉",
+        "ingredients": [
+            "西红柿",
+            "马苏里拉",
+            "罗勒",
+            "橄榄油",
+            "盐",
+            "黑胡椒"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m178\">碗</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m179\">200 g西红柿</ingredient>、<ingredient id=\"m180\">150 g马苏里拉</ingredient>、<ingredient id=\"m181\">10 g罗勒</ingredient>",
+                    "往里放<ingredient id=\"m182\">2 tbsp橄榄油</ingredient>、<ingredient id=\"m183\">0.50 tsp盐</ingredient>、<ingredient id=\"m184\">0.20 tsp黑胡椒</ingredient>",
+                    "搅拌"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ScrambledEggs",
+        "name": "炒蛋",
+        "ingredients": [
+            "鸡蛋",
+            "盐",
+            "胡椒",
+            "牛奶",
+            "黄油"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m185\">碗</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m186\">3鸡蛋</ingredient>、<ingredient id=\"m187\">1 tsp盐</ingredient>、<ingredient id=\"m188\">0.50 tsp胡椒</ingredient>、<ingredient id=\"m189\">30 mL牛奶</ingredient>",
+                    "高速搅拌"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m190\">煎锅</container>",
+                "steps": [
+                    "开中火",
+                    "往里放<ingredient id=\"m191\">15 g黄油</ingredient>",
+                    "把<container tableware id=\"m185\">碗</container>里的东西移进来",
+                    "等5分钟"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GarlicButterSalmon",
+        "name": "蒜香黄油三文鱼",
+        "ingredients": [
+            "黄油",
+            "大蒜",
+            "柠檬",
+            "欧芹",
+            "三文鱼"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m192\">碗</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m193\">50 g黄油</ingredient>、<ingredient id=\"m194\">1 tbsp大蒜</ingredient>、<ingredient id=\"m195\">一些柠檬</ingredient>、<ingredient id=\"m196\">1 tbsp欧芹</ingredient>",
+                    "中速搅拌"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m198\">煎锅</container>",
+                "steps": [
+                    "开中火",
+                    "往里放<ingredient id=\"m197\">200 g三文鱼</ingredient>",
+                    "把<container tableware id=\"m192\">碗</container>里的东西移进来",
+                    "等10分钟"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Carbonara",
+        "name": "奶油培根意面",
+        "ingredients": [
+            "水",
+            "盐",
+            "意大利面",
+            "关契亚勒",
+            "蛋黄",
+            "羊奶酪",
+            "黑胡椒"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m199\">煮锅</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m200\">100 mL水</ingredient>",
+                    "煮沸",
+                    "往里放<ingredient id=\"m201\">10 g盐</ingredient>",
+                    "把<ingredient id=\"m202\">200 g意大利面</ingredient>浸入",
+                    "等10分钟"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m203\">煎锅</container>",
+                "steps": [
+                    "开中火",
+                    "往里放<ingredient id=\"m204\">5 g关契亚勒</ingredient>"
+                ]
+            },
+            {
+                "container": "<container tableware id=\"m205\">碗 A</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m206\">3蛋黄</ingredient>、<ingredient id=\"m207\">50 g羊奶酪</ingredient>、<ingredient id=\"m208\">1 g黑胡椒</ingredient>",
+                    "高速搅拌"
+                ]
+            },
+            {
+                "container": "<container tableware id=\"m209\">碗 B</container>",
+                "steps": [
+                    "混合<container cookware id=\"m203\">煎锅</container>和<container cookware id=\"m199\">煮锅</container>里的东西",
+                    "停止加热",
+                    "把<container tableware id=\"m205\">碗 A</container>里的东西拌入<container tableware id=\"m209\">碗 B</container>里"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "MacAndCheese",
+        "name": "芝士通心粉",
+        "ingredients": [
+            "水",
+            "盐",
+            "通心粉",
+            "黄油",
+            "面粉",
+            "牛奶",
+            "切达芝士",
+            "盐"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m210\">煮锅</container>",
+                "steps": [
+                    "往里放<ingredient id=\"m211\">2 L水</ingredient>",
+                    "煮沸",
+                    "往里放<ingredient id=\"m212\">1 tbsp盐</ingredient>",
+                    "往里放<ingredient id=\"m213\">300 g通心粉</ingredient>",
+                    "等8分钟"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m214\">煎锅</container>",
+                "steps": [
+                    "开中火",
+                    "往里放<ingredient id=\"m215\">30 g黄油</ingredient>",
+                    "往里放<ingredient id=\"m216\">30 g面粉</ingredient>",
+                    "中速搅拌",
+                    "往里放<ingredient id=\"m217\">300 mL牛奶</ingredient>",
+                    "等5分钟",
+                    "往里放<ingredient id=\"m218\">200 g切达芝士</ingredient>",
+                    "往里放<ingredient id=\"m219\">0.50 tsp盐</ingredient>",
+                    "低速搅拌",
+                    "把<container cookware id=\"m210\">煮锅</container>里的东西移进来"
+                ]
+            }
+        ]
+    }
+]

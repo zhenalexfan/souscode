@@ -1,0 +1,396 @@
+[
+    {
+        "id": "SteamedRice",
+        "name": "steamed rice",
+        "ingredients": [
+            "rice",
+            "water"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m12\">pot</container>",
+                "steps": [
+                    "Add <ingredient id=\"m13\">300 g rice</ingredient>, <ingredient id=\"m14\">450 mL water</ingredient>",
+                    "Bring to a boil",
+                    "Heat at low intensity",
+                    "Wait 15 minutes",
+                    "Remove heat",
+                    "Wait 5 minutes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "BraisedBeefNoodleSoup",
+        "name": "braised beef noodle soup",
+        "ingredients": [
+            "beef shank",
+            "olive oil",
+            "ginger",
+            "green onion",
+            "star anise",
+            "cinnamon",
+            "soy sauce",
+            "doubanjiang",
+            "sugar",
+            "water",
+            "noodles",
+            "bok choy"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m15\">pot</container>",
+                "steps": [
+                    "Heat at high intensity",
+                    "Add <ingredient id=\"m16\">500 g beef shank</ingredient>, <ingredient id=\"m17\">15 mL olive oil</ingredient>, <ingredient id=\"m18\">20 g ginger</ingredient>, <ingredient id=\"m19\">20 g green onion</ingredient>, <ingredient id=\"m20\">some star anise</ingredient>, <ingredient id=\"m21\">some cinnamon</ingredient>",
+                    "Wait 5 minutes",
+                    "Add <ingredient id=\"m22\">50 mL soy sauce</ingredient>, <ingredient id=\"m23\">1 tbsp doubanjiang</ingredient>, <ingredient id=\"m24\">1 tbsp sugar</ingredient>, <ingredient id=\"m25\">2 L water</ingredient>",
+                    "Bring to a boil",
+                    "Wait 90 minutes",
+                    "Add <ingredient id=\"m26\">300 g noodles</ingredient>",
+                    "Add <ingredient id=\"m27\">200 g bok choy</ingredient>",
+                    "Wait 5 minutes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "MapoTofu",
+        "name": "mapo tofu",
+        "ingredients": [
+            "olive oil",
+            "doubanjiang",
+            "ginger",
+            "garlic",
+            "sichuan peppercorn",
+            "pork",
+            "tofu",
+            "soy sauce",
+            "sugar",
+            "water",
+            "green onion"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m28\">wok</container>",
+                "steps": [
+                    "Heat at high intensity",
+                    "Add <ingredient id=\"m29\">2 tbsp olive oil</ingredient>, <ingredient id=\"m30\">2 tbsp doubanjiang</ingredient>, <ingredient id=\"m31\">10 g ginger</ingredient>, <ingredient id=\"m32\">10 g garlic</ingredient>, <ingredient id=\"m33\">1 tsp sichuan peppercorn</ingredient>",
+                    "Wait 2 minutes",
+                    "Add <ingredient id=\"m34\">150 g pork</ingredient>",
+                    "Wait 3 minutes",
+                    "Add <ingredient id=\"m35\">400 g tofu</ingredient>",
+                    "Add <ingredient id=\"m36\">1 tbsp soy sauce</ingredient>, <ingredient id=\"m37\">1 tsp sugar</ingredient>, <ingredient id=\"m38\">100 mL water</ingredient>",
+                    "Heat at medium intensity",
+                    "Wait 5 minutes",
+                    "Add <ingredient id=\"m39\">20 g green onion</ingredient>"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "TomatoSoup",
+        "name": "tomato soup",
+        "ingredients": [
+            "olive oil",
+            "onion",
+            "garlic",
+            "tomato",
+            "water",
+            "cream"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m40\">pot</container>",
+                "steps": [
+                    "Heat at medium intensity",
+                    "Add <ingredient id=\"m41\">1 tbsp olive oil</ingredient>, <ingredient id=\"m42\">1 onion</ingredient>, <ingredient id=\"m43\">2 tsp garlic</ingredient>",
+                    "Wait 5 minutes",
+                    "Add <ingredient id=\"m44\">500 g tomato</ingredient>, <ingredient id=\"m45\">500 mL water</ingredient>",
+                    "Bring to a boil",
+                    "Wait 20 minutes",
+                    "Add <ingredient id=\"m46\">100 mL cream</ingredient>",
+                    "Whisk contents at high velocity"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "OvenRoastedPotatoes",
+        "name": "oven roasted potatoes",
+        "ingredients": [
+            "potato",
+            "olive oil",
+            "salt",
+            "black pepper",
+            "rosemary",
+            "garlic"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m47\">bowl</container>",
+                "steps": [
+                    "Add <ingredient id=\"m48\">500 g potato</ingredient>, <ingredient id=\"m49\">2 tbsp olive oil</ingredient>, <ingredient id=\"m50\">1 tsp salt</ingredient>, <ingredient id=\"m51\">0.50 tsp black pepper</ingredient>, <ingredient id=\"m52\">1 tbsp rosemary</ingredient>, <ingredient id=\"m53\">1 tbsp garlic</ingredient>",
+                    "Whisk contents at low velocity"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m54\">baking tray</container>",
+                "steps": [
+                    "Transfer contents from <container tableware id=\"m47\">bowl</container>"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m55\">oven</container>",
+                "steps": [
+                    "Add <container cookware id=\"m54\">baking tray</container>",
+                    "Roast contents at 400 °F",
+                    "Wait 25 minutes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "AglioEOlio",
+        "name": "aglio e olio",
+        "ingredients": [
+            "water",
+            "salt",
+            "spaghetti",
+            "olive oil",
+            "garlic",
+            "chili flakes"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m56\">pot</container>",
+                "steps": [
+                    "Add <ingredient id=\"m57\">1 L water</ingredient>",
+                    "Bring to a boil",
+                    "Add <ingredient id=\"m58\">1 tbsp salt</ingredient>",
+                    "Add <ingredient id=\"m59\">200 g spaghetti</ingredient>",
+                    "Wait 10 minutes"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m60\">pan</container>",
+                "steps": [
+                    "Heat at low intensity",
+                    "Add <ingredient id=\"m61\">60 mL olive oil</ingredient>, <ingredient id=\"m62\">4 tsp garlic</ingredient>, <ingredient id=\"m63\">1 tsp chili flakes</ingredient>",
+                    "Wait 3 minutes",
+                    "Transfer contents from <container cookware id=\"m56\">pot</container>",
+                    "Whisk contents at medium velocity"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Bruschetta",
+        "name": "bruschetta",
+        "ingredients": [
+            "tomato",
+            "basil",
+            "garlic",
+            "olive oil",
+            "salt",
+            "bread"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m64\">bowl A</container>",
+                "steps": [
+                    "Add <ingredient id=\"m65\">300 g tomato</ingredient>, <ingredient id=\"m66\">10 g basil</ingredient>, <ingredient id=\"m67\">1 tsp garlic</ingredient>, <ingredient id=\"m68\">2 tbsp olive oil</ingredient>, <ingredient id=\"m69\">1 tsp salt</ingredient>"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m70\">baking tray</container>",
+                "steps": [
+                    "Add <ingredient id=\"m71\">some bread</ingredient>"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m72\">oven</container>",
+                "steps": [
+                    "Add <container cookware id=\"m70\">baking tray</container>",
+                    "Roast contents at 200 °C",
+                    "Wait 5 minutes"
+                ]
+            },
+            {
+                "container": "<container tableware id=\"m73\">bowl B</container>",
+                "steps": [
+                    "Transfer contents from <container cookware id=\"m70\">baking tray</container>",
+                    "Transfer contents from <container tableware id=\"m64\">bowl A</container>"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "CapreseSalad",
+        "name": "caprese salad",
+        "ingredients": [
+            "tomato",
+            "mozzarella",
+            "basil",
+            "olive oil",
+            "salt",
+            "black pepper"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m74\">bowl</container>",
+                "steps": [
+                    "Add <ingredient id=\"m75\">200 g tomato</ingredient>, <ingredient id=\"m76\">150 g mozzarella</ingredient>, <ingredient id=\"m77\">10 g basil</ingredient>",
+                    "Add <ingredient id=\"m78\">2 tbsp olive oil</ingredient>, <ingredient id=\"m79\">0.50 tsp salt</ingredient>, <ingredient id=\"m80\">0.20 tsp black pepper</ingredient>",
+                    "Mix contents"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ScrambledEggs",
+        "name": "scrambled eggs",
+        "ingredients": [
+            "egg",
+            "salt",
+            "pepper",
+            "milk",
+            "butter"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m81\">bowl</container>",
+                "steps": [
+                    "Add <ingredient id=\"m82\">3 egg</ingredient>, <ingredient id=\"m83\">1 tsp salt</ingredient>, <ingredient id=\"m84\">0.50 tsp pepper</ingredient>, <ingredient id=\"m85\">30 mL milk</ingredient>",
+                    "Whisk contents at high velocity"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m86\">pan</container>",
+                "steps": [
+                    "Heat at medium intensity",
+                    "Add <ingredient id=\"m87\">15 g butter</ingredient>",
+                    "Transfer contents from <container tableware id=\"m81\">bowl</container>",
+                    "Wait 5 minutes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GarlicButterSalmon",
+        "name": "garlic butter salmon",
+        "ingredients": [
+            "butter",
+            "garlic",
+            "lemon",
+            "parsley",
+            "salmon"
+        ],
+        "instructions": [
+            {
+                "container": "<container tableware id=\"m88\">bowl</container>",
+                "steps": [
+                    "Add <ingredient id=\"m89\">50 g butter</ingredient>, <ingredient id=\"m90\">1 tbsp garlic</ingredient>, <ingredient id=\"m91\">some lemon</ingredient>, <ingredient id=\"m92\">1 tbsp parsley</ingredient>",
+                    "Whisk contents at medium velocity"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m94\">pan</container>",
+                "steps": [
+                    "Heat at medium intensity",
+                    "Add <ingredient id=\"m93\">200 g salmon</ingredient>",
+                    "Transfer contents from <container tableware id=\"m88\">bowl</container>",
+                    "Wait 10 minutes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Carbonara",
+        "name": "carbonara",
+        "ingredients": [
+            "water",
+            "salt",
+            "spaghetti",
+            "guanciale",
+            "egg yolk",
+            "pecorino",
+            "black pepper"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m95\">pot</container>",
+                "steps": [
+                    "Add <ingredient id=\"m96\">100 mL water</ingredient>",
+                    "Bring to a boil",
+                    "Add <ingredient id=\"m97\">10 g salt</ingredient>",
+                    "Submerge <ingredient id=\"m98\">200 g spaghetti</ingredient>",
+                    "Wait 10 minutes"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m99\">pan</container>",
+                "steps": [
+                    "Heat at medium intensity",
+                    "Add <ingredient id=\"m100\">5 g guanciale</ingredient>"
+                ]
+            },
+            {
+                "container": "<container tableware id=\"m101\">bowl A</container>",
+                "steps": [
+                    "Add <ingredient id=\"m102\">3 egg yolk</ingredient>, <ingredient id=\"m103\">50 g pecorino</ingredient>, <ingredient id=\"m104\">1 g black pepper</ingredient>",
+                    "Whisk contents at high velocity"
+                ]
+            },
+            {
+                "container": "<container tableware id=\"m105\">bowl B</container>",
+                "steps": [
+                    "Combine <container cookware id=\"m99\">pan</container> and <container cookware id=\"m95\">pot</container>",
+                    "Remove heat",
+                    "Fold <container tableware id=\"m101\">bowl A</container> into <container tableware id=\"m105\">bowl B</container>"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "MacAndCheese",
+        "name": "mac and cheese",
+        "ingredients": [
+            "water",
+            "salt",
+            "macaroni",
+            "butter",
+            "flour",
+            "milk",
+            "cheddar",
+            "salt"
+        ],
+        "instructions": [
+            {
+                "container": "<container cookware id=\"m106\">pot</container>",
+                "steps": [
+                    "Add <ingredient id=\"m107\">2 L water</ingredient>",
+                    "Bring to a boil",
+                    "Add <ingredient id=\"m108\">1 tbsp salt</ingredient>",
+                    "Add <ingredient id=\"m109\">300 g macaroni</ingredient>",
+                    "Wait 8 minutes"
+                ]
+            },
+            {
+                "container": "<container cookware id=\"m110\">pan</container>",
+                "steps": [
+                    "Heat at medium intensity",
+                    "Add <ingredient id=\"m111\">30 g butter</ingredient>",
+                    "Add <ingredient id=\"m112\">30 g flour</ingredient>",
+                    "Whisk contents at medium velocity",
+                    "Add <ingredient id=\"m113\">300 mL milk</ingredient>",
+                    "Wait 5 minutes",
+                    "Add <ingredient id=\"m114\">200 g cheddar</ingredient>",
+                    "Add <ingredient id=\"m115\">0.50 tsp salt</ingredient>",
+                    "Whisk contents at low velocity",
+                    "Transfer contents from <container cookware id=\"m106\">pot</container>"
+                ]
+            }
+        ]
+    }
+]

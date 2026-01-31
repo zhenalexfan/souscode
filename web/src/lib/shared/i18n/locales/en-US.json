@@ -1,0 +1,74 @@
+{
+  "search": {
+    "placeholder": "Find a recipe..."
+  },
+  "home": {
+    "actionAbout": "Why recipe as code?",
+    "actionGithub": "See it on GitHub",
+    "personalExperiment": "personal experiment only"
+  },
+  "recipe": {
+    "viewMoreIngredients": "+{count} more",
+    "totalIngredients": "{count} total",
+    "notFound": "Recipe not found",
+    "startCooking": "Start Cooking",
+    "code": {
+      "packageImports": "package & imports",
+      "recipeName": "recipe name"
+    }
+  },
+  "language": {
+    "enUS": "English",
+    "zhCN": "简体中文"
+  },
+  "player": {
+    "currentlyCooking": "Currently cooking",
+    "error": {
+      "oops": "Oops.",
+      "message": "An error occurred during session",
+      "back": "Return to safety"
+    },
+    "loading": {
+      "initializing": "Initializing",
+      "registry": "Awaiting Recipe Registry..."
+    },
+    "snapshot": {
+      "vacuum": "Vacuum",
+      "heat": "heat:",
+      "active": "Active"
+    },
+    "intensity": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "category": {
+      "add": "Add",
+      "heat": "Heat",
+      "mix": "Mix",
+      "wait": "Wait",
+      "transfer": "Transfer",
+      "done": "Done"
+    }
+  },
+  "about": {
+    "features": {
+      "1": {
+        "title": "Version Controlled",
+        "description": "Treat your recipes like a living repository. Every tweak to a spice ratio or sourdough hydration is a commit. This allows for diffing different versions of a dish and rolling back to a previous \"known good\" state of a recipe."
+      },
+      "2": {
+        "title": "Strictly-Typed Ingredients",
+        "description": "In this DSL, ingredients are not mere strings; they are objects with defined physical properties and metadata. This removes the ambiguity of \"medium\" sizes or \"pinches.\""
+      },
+      "3": {
+        "title": "Programmable & Executable",
+        "description": "By executing the recipe code, the system computes the exact required ingredients, transformations, and terminal states—transforming a descriptive document into a structured, verifiable plan for execution."
+      },
+      "4": {
+        "title": "Composable Culinary Modules",
+        "description": "Don't reinvent the wheel—or the sauce. Standardized culinary techniques, such as a [mirepoix](https://en.wikipedia.org/wiki/Mirepoix) or a specific [emulsion](https://en.wikipedia.org/wiki/Emulsion), can be written as standalone modules and then imported and reused across different recipes."
+      }
+    }
+  }
+}

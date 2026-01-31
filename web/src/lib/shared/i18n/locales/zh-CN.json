@@ -1,0 +1,74 @@
+{
+  "search": {
+    "placeholder": "搜索食谱..."
+  },
+  "home": {
+    "actionAbout": "食谱写成代码妙在哪？",
+    "actionGithub": "看GitHub",
+    "personalExperiment": "仅限个人实验"
+  },
+  "recipe": {
+    "viewMoreIngredients": "+另外{count}样",
+    "totalIngredients": "{count}样食材",
+    "notFound": "没搜着这道菜",
+    "startCooking": "这就开整",
+    "code": {
+      "packageImports": "packages & imports",
+      "recipeName": "菜名"
+    }
+  },
+  "language": {
+    "enUS": "English",
+    "zhCN": "简体中文"
+  },
+  "player": {
+    "currentlyCooking": "正在烹饪",
+    "error": {
+      "oops": "哎呀",
+      "message": "在会话期间发生了错误",
+      "back": "回到安全地带"
+    },
+    "loading": {
+      "initializing": "初始化中",
+      "registry": "等待加载食谱……"
+    },
+    "snapshot": {
+      "vacuum": "没东西",
+      "heat": "火力：",
+      "active": "开启中"
+    },
+    "intensity": {
+      "low": "小火慢炖",
+      "medium": "中火伺候",
+      "high": "大火猛攻"
+    },
+    "category": {
+      "add": "放料",
+      "heat": "加热",
+      "mix": "搅拌",
+      "wait": "稍等",
+      "transfer": "换锅",
+      "done": "搞定！"
+    }
+  },
+  "about": {
+    "features": {
+      "1": {
+        "title": "自带版本控制",
+        "description": "把你的食谱当成代码库来管。无论是调整了酸种的含水量，还是改了香料配比，每一次改动都是一次 commit。你能清楚看到版本的 diff，随时都能回滚到那个「味道最对」的版本。"
+      },
+      "2": {
+        "title": "强类型食材",
+        "description": "在此得讲科学。食材不只是个字符串，它们是有物理属性的对象。彻底告别「适量」、「少许」或者「中等洋葱」这种让人抓狂的描述。"
+      },
+      "3": {
+        "title": "可执行的程序逻辑",
+        "description": "这不再是死板的说明书，而是厨房里的可执行程序。运行代码，系统就能自动推算出所有食材用量、预判最终状态，顺便把要用的锅碗瓢盆都给你列得清清楚楚。"
+      },
+      "4": {
+        "title": "可组合的烹饪模块",
+        "description": "别重复造轮子。中餐中通用的「葱姜蒜爆香」逻辑或标准的「红烧」调味流程，可以被封装为独立模块。在需要的时候直接导入，省心又标准。"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Souscode — A Type-Safe DSL for Recipes</title>
+    <meta
+      name="description"
+      content="A modern, type-safe Domain Specific Language for culinary recipes with real-time execution and beautiful visualization."
+    />
+    <meta
+      name="keywords"
+      content="Souscode, DSL, recipes, code, kotlin, coding, cooking, type-safe, programming language, visualization, culinary, kitchen, kitchen OS, automation"
+    />
+    <meta name="theme-color" content="#ea3c12" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://souscode.com/" />
+    <meta
+      property="og:title"
+      content="Souscode — A Type-Safe DSL for Recipes"
+    />
+    <meta
+      property="og:description"
+      content="A modern, type-safe Domain Specific Language for culinary recipes with real-time execution and beautiful visualization."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://souscode.com/" />
+    <meta
+      property="twitter:title"
+      content="Souscode — A Type-Safe DSL for Recipes"
+    />
+    <meta
+      property="twitter:description"
+      content="A modern, type-safe Domain Specific Language for culinary recipes with real-time execution and beautiful visualization."
+    />
+    <meta property="twitter:image" content="/og-image.jpg" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "pgr5uot",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/zhenalexfan/zige.js/release/zige.min.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
