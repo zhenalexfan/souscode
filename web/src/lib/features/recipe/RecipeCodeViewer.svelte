@@ -55,7 +55,7 @@
 <div
   class="flex-1 bg-code-surface rounded-[2.5rem] shadow-2xl relative group overflow-hidden flex flex-col min-h-0"
 >
-  <BackButton href="#/" class="absolute top-8 left-8 z-20" />
+  <BackButton href="/" class="absolute top-8 left-8 z-20" />
   <div
     class="absolute top-8 right-8 text-[10px] font-bold text-on-code-surface/50 uppercase tracking-[0.1em] bg-white/5 px-4 py-2 rounded-full flex items-center gap-2 z-20"
   >

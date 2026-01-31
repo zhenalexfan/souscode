@@ -29,7 +29,10 @@
     <div class="flex flex-col p-2 min-w-48">
       <MenuItem
         icon={Info}
-        onclick={() => (window.location.hash = "/about")}
+        onclick={() => {
+          history.pushState(null, "", "/about");
+          window.dispatchEvent(new Event("popstate"));
+        }}
         class="px-4"
       >
         {$t("home.actionAbout")}
@@ -37,7 +40,7 @@
       <MenuItem
         icon={ExternalLink}
         onclick={() =>
-          window.open("https://github.com/souscode/souscode", "_blank")}
+          window.open("https://github.com/zhenalexfan/souscode", "_blank")}
         class="px-4"
       >
         {$t("home.actionGithub")}
